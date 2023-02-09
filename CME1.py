@@ -40,7 +40,7 @@ def scrape(category_name,commodity_name):
 
 #
 def etl(category_name,commodity_name):
-    
+    print("etl session start")
     try:
         page=scrape(category_name,commodity_name)
         print(commodity_name)
