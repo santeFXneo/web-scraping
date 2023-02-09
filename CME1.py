@@ -22,7 +22,7 @@ def scrape(category_name,commodity_name):
     #so i use empty proxy to bypass the authentication
     proxy_handler = u.ProxyHandler({})
     opener = u.build_opener(proxy_handler)
-    
+    print("opener ready")
     #cme officially forbids scraping
     #so a header must be used for disguise as an internet browser
     #the developers say no to scraping, it appears to be so
@@ -31,10 +31,14 @@ def scrape(category_name,commodity_name):
     #so i need to format the website for each commodity
     req=u.Request('http://www.cmegroup.com/trading/metals/%s/%s.html'%(
             category_name,commodity_name),headers={'User-Agent': 'Mozilla/5.0'})
+    
+    print("request ready")
     response=opener.open(req)
+    
+    print("opener starting")
     result=response.read()
     soup=bs(result,'html.parser')
-    
+    print(soup)
     return soup
 
 
