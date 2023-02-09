@@ -16,7 +16,7 @@ os.chdir('/home/ec2-user/web-scraping/cme1')
 
 #
 def scrape(category_name,commodity_name):
-    
+    print("scrape start")
     #i use proxy handler cuz my uni network runs on its proxy
     #and i cannot authenticate python through the proxy
     #so i use empty proxy to bypass the authentication
