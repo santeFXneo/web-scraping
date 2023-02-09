@@ -90,7 +90,7 @@ def etl(category_name,commodity_name):
 
 #
 def main():
-    
+    print("Engine start")
     #scraping and etl
     df1=etl('precious','silver')
     df2=etl('precious','gold')
