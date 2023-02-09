@@ -11,7 +11,7 @@ import urllib.request as u
 import pandas as pd
 from bs4 import BeautifulSoup as bs
 import os
-os.chdir('H:/')
+os.chdir('./cme1')
 
 
 #
