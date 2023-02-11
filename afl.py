@@ -7,7 +7,7 @@ download = article.download()
 print(download)
 print(article.html)
 
-print(article.parse())
+
 
 print(article.authors)
 
