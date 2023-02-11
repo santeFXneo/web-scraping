@@ -1,6 +1,6 @@
 from newspaper import Article
 
-url = 'http://fox13now.com/2013/12/30/new-year-new-laws-obamacare-pot-guns-and-drones/'
+url = 'https://www.afl.com.au/news/874759/-rock-bottom-freo-superstar-opens-up-about-mental-health-battle'
 article = Article(url)
 
 article.download()
