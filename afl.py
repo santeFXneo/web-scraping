@@ -1,6 +1,6 @@
 from newspaper import Article
 
-url = 'https://www.afl.com.au/news/874759/-rock-bottom-freo-superstar-opens-up-about-mental-health-battle'
+url = 'https://www.afr.com/markets/equity-markets/retail-stocks-hit-with-reality-check-as-hawkish-rba-spoils-results-20230209-p5cjc2'
 article = Article(url)
 
 article.download()
