@@ -4,18 +4,18 @@ url = 'http://fox13now.com/2013/12/30/new-year-new-laws-obamacare-pot-guns-and-d
 article = Article(url)
 
 download = article.download()
-print(download)
-print(article.html)
+print("download", download)
+print("22222222222",article.html)
+
+print("33333333333333", article.parse())
+
+print("4444444444444444", article.authors)
 
 
-
-print(article.authors)
-
-
-print(article.publish_date)
+print("5555555555555555555", article.publish_date)
 
 
-print(article.text)
+print("666666666666666666666", article.text)
 
 
 print(article.top_image)
