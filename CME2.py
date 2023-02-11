@@ -20,7 +20,7 @@ Created on Mon Apr  9 11:33:03 2018
 import pandas as pd
 import requests
 import os
-os.chdir('H:/')
+os.chdir('/home/ec2-user/web-scraping/cme')
 
 
 #
@@ -30,7 +30,6 @@ def scrape(commodity_code):
     
     
     #cme officially forbids scraping
-    #so a header must be used to disguise as a browser
     #technically speaking, the website should be able to detect that too
     #those tech guys just turn a blind eye, thx fellas
     session.headers.update(
