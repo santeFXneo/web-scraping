@@ -5,9 +5,9 @@ article = Article(url)
 
 download = article.download()
 print(download)
-article.html
+print(article.html)
 
-article.parse()
+print(article.parse())
 
 print(article.authors)
 
@@ -15,13 +15,13 @@ print(article.authors)
 print(article.publish_date)
 
 
-article.text
+print(article.text)
 
 
-article.top_image
+print(article.top_image)
 
 
-article.movies
+print(article.movies)
 
 
 
